@@ -1,0 +1,235 @@
+body {
+
+    background-color: #ffe18c;
+    font-family: Candara, Helvetica, sans-serif;    
+    margin: 0;
+}
+
+#header {
+
+    width: 100%;
+    height: 137px;
+    padding-top: 10px;
+}
+
+#logo {
+    width: 425px;  
+    height: 60px;
+    position: relative;
+    margin-left: 30px;
+}
+
+#logoImg {
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+
+#tituloLogo {
+    float: left;
+    color: #e50021;
+    line-height: 60px;
+    margin: 0;
+    margin-left: 10px; 
+    font-size: 35px;
+}
+
+#menu {
+    width: 100%;
+    background-color: #e50021;
+}
+
+.listaMenu {
+    width: 350px;
+    position: relative;
+    left: 50%;
+    margin-left: -205px;
+    margin-top: 7px;
+}
+
+.listaMenu li {
+    display: inline-block;
+}
+
+.listaMenu li a {
+    text-decoration: none;
+    height: 50px;
+    line-height: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.listaMenu li a:link,
+.listaMenu li a:visited {
+    color: white;
+}
+
+.listaMenu li a:hover {
+    color: #e50021;
+    background-color: white;
+} 
+
+#content {
+    width: 700px;
+    background-color: white;
+    position: relative;
+    left: 50%;
+    margin-left: -350px;
+}
+
+#promotionBanner {
+    height: 200px;
+    background-image: url('images/promocao.jpg');
+}
+
+#promocaoH1 {
+    color: white;
+    font-size: 64px;
+    margin: 0;
+    margin-left: 20px;
+    position: absolute;
+    text-shadow: 2px 2px 4px #e50021;
+}
+
+#promocaoValor {
+    color: white;
+    font-size: 48px;
+    margin: 0;
+    position: relative;
+    text-shadow: 2px 2px 4px #e50021;
+    left: 180px;
+    top: 130px;
+    width: 500px;
+}
+
+#tituloConteudo {
+    color: #e50021;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#areaProdutos table {   
+    border-spacing: 25px;
+    border-collapse: separate;
+    text-align: center;
+}
+
+#areaProdutos td {    
+    width: 250px;
+    color: #e50021;
+    font-size: 20px;
+}
+
+#areaProdutos td img {
+    width: 150px;
+    height: 150px;
+    margin-top: 5px;
+    border-radius: 50%;
+    border: 2px solid #e50021;
+}
+
+.tituloProduto {
+    font-weight: bold;
+    margin: 0;
+}
+
+.precoProduto {
+    margin: 0;
+}
+
+#entrega {
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+    height: 100px;
+    width: 300px;
+}
+
+#entrega img {
+    border-radius: 50%;
+    border: 3px solid #e50021;
+}
+
+#tel {
+    position: absolute;
+    left: 120px;
+    height: 75px;
+    background-color: #e50021;
+    color: white;
+    margin-top: 13px;
+    padding: 10px;
+    padding-bottom: 0;
+    border-radius: 15px;
+}
+
+#tel h4 {
+    margin: 0;
+    font-size: 28px;
+}
+
+#tel h5 {
+    margin: 0;
+    margin-top: 10px;
+}
+
+#tel a {
+    color: white;
+    text-decoration: none;
+}
+
+#textoSobre {
+    padding: 20px;
+    font-size: 18px;
+    color: #e50021;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+#formContato {
+    padding: 20px;
+    color: #e50021;
+    font-size: 18px;
+}
+
+.campoForm {
+    margin-bottom: 15px;
+}
+
+.campoForm label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.campoForm input,
+.campoForm textarea {
+    width: 95%;
+    padding: 10px;
+    border: 2px solid #e50021;
+    border-radius: 8px;
+    font-family: Candara, Helvetica, sans-serif;
+}
+
+.campoForm textarea {
+    resize: none;
+}
+
+#btnEnviar {
+    background-color: #e50021;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+#btnEnviar:hover {
+    background-color: #b3001a;
+}
