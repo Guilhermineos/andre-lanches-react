@@ -11,7 +11,7 @@ function App() {
     <div id="content">
       <Header />
       
-      <BannerPromocao titulo="Promoção!" subtitulo="X-Salada + Batata = 9,90" />
+      <BannerPromocao titulo="Promoção!" subtitulo="X-Salada + Batata = 19,90" />
       <ListaProdutos />
       
       {/* Componentes de página adicionados aqui embaixo */}

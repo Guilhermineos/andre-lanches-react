@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
 
     background-color: #ffe18c;
@@ -81,7 +85,7 @@ body {
 }
 
 #promotionBanner {
-    height: 200px;
+    height: 250px;
     background-image: url('images/promocao.jpg');
 }
 
@@ -121,6 +125,15 @@ body {
     width: 250px;
     color: #e50021;
     font-size: 20px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#areaProdutos td:hover {
+    transform: translate(-10px);
+    background-color: #fff3d4;
+    cursor: pointer
 }
 
 #areaProdutos td img {
@@ -146,6 +159,13 @@ body {
     right: 10px;
     height: 100px;
     width: 300px;
+    filter: drop-shadow(0px 8px 12px rgba(0, 0, 0, 0.4)); 
+    transition: transform 0.3s ease; 
+    cursor: pointer;
+}
+
+#entrega:hover {
+    transform: scale(1.05);
 }
 
 #entrega img {
@@ -167,12 +187,15 @@ body {
 
 #tel h4 {
     margin: 0;
-    font-size: 28px;
+    font-size: 24px;
 }
 
 #tel h5 {
+    color: #ffcc00;
+    font-size: 15px;
     margin: 0;
     margin-top: 10px;
+    font-weight: normal;
 }
 
 #tel a {
